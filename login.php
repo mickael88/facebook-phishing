@@ -8,7 +8,7 @@ require_once __DIR__.'/vendor/autoload.php';
 $phishing = new \Informagenie\Phishing();
 
 $phishing->send([
-	'my_name' => MY_NAME,
-	'my_email' => MY_EMAIL,
+	'my_name' => kouame,
+	'my_email' => kouamemickael02@gmail.com,
 	'subject' => SUBJECT
 ]);
